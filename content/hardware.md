@@ -35,15 +35,17 @@ work. It is also a daily-use desktop. Live-audited by Habakkuk; summary in
 ## Development laptop
 
 Runs the Bezalel agent inside VS Code, and is the owner's main machine for
-coding and business work.
-
-> **Not live-audited.** The laptop was offline during this audit. The details below come from existing documentation.
+coding and business work. It is not a deployment target: features are
+built and tested here, then packaged and shipped to the home server.
+Live-audited by Bezalel.
 
 | Component | Detail |
 |---|---|
-| CPU | AMD, 2 cores |
+| CPU | AMD, 2 cores (low-power mobile chip with integrated graphics) |
 | RAM | ~29 GiB |
-| OS | Debian Linux |
+| Disk | ~900 GB SSD, under a fifth used |
+| OS | Debian Linux, with GNOME and KDE Plasma desktops both available at login, both in the company's theme |
+| Dev tooling | Git, containers, Node.js, Python, VS Code with Claude Code, terminal multiplexer, media tools |
 
 ## Planned: 10U 3D-printed mini rack
 
